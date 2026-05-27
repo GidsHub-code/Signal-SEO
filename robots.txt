@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /auth
+Disallow: /chats
+Disallow: /chats/
+Disallow: /profile
+Disallow: /profile/
+Disallow: /agent
+Disallow: /client
+Disallow: /signals
+Disallow: /request
+Disallow: /subscribe
+Disallow: /api/
+
+Sitemap: https://signalme.app/sitemap.xml
