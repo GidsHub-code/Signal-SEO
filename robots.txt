@@ -1,5 +1,14 @@
 User-agent: *
 Allow: /
+Allow: /rent/
+Allow: /blog/
+Allow: /about
+Allow: /plans
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+
+# Block authenticated/app-only routes
 Disallow: /auth
 Disallow: /chats
 Disallow: /chats/
@@ -10,6 +19,20 @@ Disallow: /client
 Disallow: /signals
 Disallow: /request
 Disallow: /subscribe
-Disallow: /api/
+Disallow: /api/push
+Disallow: /api/payments
 
-Sitemap: https://signalme.app/sitemap.xml
+# Allow sitemap API
+Allow: /api/sitemap.xml
+
+Sitemap: https://signalme.com.ng/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2

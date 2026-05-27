@@ -336,7 +336,7 @@ function Landing() {
       <footer className="max-w-6xl mx-auto w-full px-5 py-8 text-sm text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Logo className="h-6 w-6" />
-          <span>© SignalMe</span>
+          <span>© 2025-2026 SignalMe Powered By Gidsworld Ventures</span>
         </div>
         <nav className="flex items-center gap-4">
           <Link to="/about" className="hover:text-foreground transition-colors">About</Link>

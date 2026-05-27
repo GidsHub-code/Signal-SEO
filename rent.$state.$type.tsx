@@ -215,11 +215,11 @@ export const Route = createFileRoute("/rent/$state/$type")({
         {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "@id": `https://signalme.app/rent/${params.state}/${params.type}`,
+          "@id": `https://signalme.com.ng/rent/${params.state}/${params.type}`,
           name: `SignalMe ${stateName}`,
           description: `Nigeria's demand-first rental platform for ${typeMeta.plural.toLowerCase()} in ${stateName}. Post your request, verified agents respond.`,
-          url: `https://signalme.app/rent/${params.state}/${params.type}`,
-          logo: "https://signalme.app/icon-512.png",
+          url: `https://signalme.com.ng/rent/${params.state}/${params.type}`,
+          logo: "https://signalme.com.ng/icon-512.png",
           areaServed: {
             "@type": "State",
             name: stateName,
@@ -498,7 +498,7 @@ function LocationTypePage() {
       <footer className="max-w-6xl mx-auto w-full px-5 py-8 text-sm text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Logo className="h-6 w-6" />
-          <span>© SignalMe</span>
+          <span>© 2025-2026 SignalMe</span>
         </div>
         <nav className="flex items-center gap-4 flex-wrap justify-center">
           <Link to="/about" className="hover:text-foreground transition-colors">About</Link>
