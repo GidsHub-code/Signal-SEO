@@ -37,7 +37,7 @@ export const Route = createFileRoute("/rent")({
             "@type": "ListItem",
             position: i + 1,
             name: `Properties for Rent in ${name}`,
-            url: `https://signalme.app/rent/${slug}`,
+            url: `https://signalme.com.ng/rent/${slug}`,
           })),
         },
       ],
@@ -219,7 +219,7 @@ function RentIndexPage() {
       <footer className="max-w-6xl mx-auto w-full px-5 py-8 text-sm text-muted-foreground flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Logo className="h-6 w-6" />
-          <span>© SignalMe</span>
+          <span>© 2025-2026 SignalMe</span>
         </div>
         <nav className="flex items-center gap-4 flex-wrap justify-center">
           <Link to="/about" className="hover:text-foreground">About</Link>
